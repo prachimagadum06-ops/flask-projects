@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 
 # Connect to MongoDB
-client = MongoClient("mongodb+srv://mtanvi528_db_user:BPIh4Up4UTyh6vXq@cluster0.ye0o5h5.mongodb.net/?appName=Cluster0")
+client = MongoClient("MONGODB_URI")
 
 # Select database
 db = client["student_database"]
